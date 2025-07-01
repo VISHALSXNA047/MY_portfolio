@@ -251,12 +251,6 @@ span {
   box-shadow: 0 0 15px rgba(255, 30, 0, 0.262);
 }
 
-@media (max-width: 768px) {
-  .contact-box {
-    font-size: 10px;
-  }
-}
-
 .contact-box div {
   /* color: white; */
    color: #333;
@@ -665,6 +659,12 @@ footer {
 
 .policy-links a:hover {
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .contact-box {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 768px) {
