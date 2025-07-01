@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishal Saxena Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="project.css" />
+</head>
+
+<body>
+  <div class="main-container">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <img src="/template/profilepic.jpg" alt="Profile" class="profile-img" />
+      <h2>VISHAL SAXENA</h2>
+      <p class="role">WEB DEVELOPER, GRAPHIC DESIGNER</p>
+      <div class="button-group">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAwtWFGksh_IczBzW70jwmt9nxCF3-fyJj9eD4a_gDsjl9KA/viewform?usp=dialog"
+          class="btn" target="_blank">HIRE ME</a>
+        <a href="https://drive.google.com/file/d/1AUGdo2D9JbHIfMXa1udQ9PMPqqDfetmD/view?usp=drive_link" class="btn"
+          target="_blank">VIEW CV / RESUME</a>
+      </div>
+
+      <h3>WEB DEVELOPMENT</h3>
+      <div class="icon-grid">
+        <img src="/template/icons8-html-512.png" />
+        <img src="/template/icons8-css-512.png" />
+        <img src="/template/bootstrap.png" />
+        <img src="/template/icons8-javascript-512.png" />
+        <img src="/template/icons8-nodejs-512.png" />
+        <img src="/template/icons8-express-js-512.png" />
+
+      </div>
+      <br>
+      <h3>GRAPHIC DESIGNS TOOLS</h3>
+      <div class="icon-grid">
+        <img src="/template/photoshop.png" />
+        <img src="/template/illustrator.png" />
+        <img src="/template/indesign.png" width="40" />
+        <img src="/template/icons8-canva-512.png" width="40" />
+        <img src="/template/icons8-figma-512.png" width="40" />
+      </div>
+      
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <section class="project-section">
+        <h2 class="section-title">Coding Projects</h2>
+        <br>
+        <div class="card-grid">
+          <!-- Project 1 -->
+          <div class="card">
+            <h4>💻 Hirelens</h4>
+            <p style="margin-bottom: 10px;"><strong>Hirelens</strong> is an AI-powered resume <strong>builder</strong>. It helps generate
+              ATS-friendly resumes.</p>
+            <div class="tags">
+              <span>Photography</span>
+              <span>UX</span>
+              <span><a href="https://hirelens-airesume.vercel.app/" target="_blank" style="text-decoration: none; color: #333;">To Visit</a></span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="card">
+            <h4>👤 Portfolio website</h4>
+            <p id="Portfolio_paragraph">My portfolio website showcases my skills and work to attract clients, employers, and</p>
+            <div class="tags">
+              <span>Show Information</span>
+              <span><a href="/xyz/index.html" target="_blank" style="text-decoration: none; color: #333;">To Visit</a></span>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="card">
+            <h4>📁 Google Drive clone</h4>
+            <p id="drive_paragraph">My Google Drive Clone project allows file upload, storage, organization, preview, and secure cloud-based
+              access.</p>
+            <div class="tags">
+              <span>Photography</span>
+              <span>UX Direct</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="section-title">Graphic Design Projects</h2>
+      <p class="subheading">Witness the beauty of nature through our lens. We showcase stunning landscapes that evoke
+        emotion and appreciation for the environment.</p>
+      <br>
+      <br>
+      <section id="Section">
+        <div class="project-card">
+          <img src="/graphics designs img/creative 1.jpg" class="design-img" alt="Diwali Poster">
+          <div class="project-card-content">
+            <h3>Child Labour Awareness</h3>
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/diwali 2.png" class="design-img" alt="Diwali Poster">
+          <div class="project-card-content">
+            <h3>Diwali Poster</h3>
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="imageModal" class="modal">
+          <span id="closeBtn" class="close">&times;</span>
+          <img id="fullImage" class="modal-content" />
+        </div>
+
+
+        <div class="project-card">
+          <img src="/graphics designs img/furniture desig.png" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Furniture Design</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/INSTAGRAM_PROMOTION_POST_RUPYZ.png" class="design-img"
+            alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>RUPYZ</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/krishna hospital (2).jpg" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Hospital banner</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/motivational monday (1) (1).png" class="design-img"
+            alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Motivational monday</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/new design.jpg" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Hiring Post</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/PIZZA DESIGN.jpg" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Pizza Design</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/PSFix_20231001_113233.jpg" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Flex</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/school banner.png" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>School banner</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/shoes design.jpg" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Child Labour Awareness</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/thought of the day+.jpg" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Thought of the day</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/We are !!! HIRING.jpg" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>We are !!! HIRING</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/tution.png" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Tution Post</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/Fast Food Selling image 3.jpg" class="design-img"
+            alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>Fast Food Creative Design</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/graphics designs img/GYM Poster.jpg" class="design-img" alt="Child Labour Awareness">
+          <div class="project-card-content">
+            <h3>GYM Poster</h3>
+            <!-- <p>A child’s hand is too precious to be doing work; they look good holding a mighty pencil.</p> -->
+            <div class="tags">
+              <span>Social Message</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="preview-btn">Preview</button>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+  <script src="project.js"></script>
+</body>
+
+</html>
