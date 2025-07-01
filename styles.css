@@ -246,9 +246,15 @@ span {
    background-color: #f4f4f4;
   padding: 20px;
   border-radius: 12px;
-  font-size: 10px;
+  font-size: 14px;
   margin-bottom: 25px;
   box-shadow: 0 0 15px rgba(255, 30, 0, 0.262);
+}
+
+@media (max-width: 768px) {
+  .contact-box {
+    font-size: 10px;
+  }
 }
 
 .contact-box div {
