@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -662,8 +662,43 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .contact-box {
+ .contact-box {
     font-size: 11px;
+  }
+  .about-hero h1{
+    font-size: 30px;
+  }
+  .skills-section h2 {
+    font-size: 30px;
+  }
+  .about-right h2 {
+    font-size: 22px;
+  }
+  .education-section .section-header h2 {
+    font-size: 22px;
+  }
+  .skills-section h2 {
+    font-size: 22px;
+  }
+  .section-header h2 {
+    font-size: 22px
+ }
+.service-content h3 {
+    font-size: 15px;
+ }
+    .footer-links {
+    display: flex;
+    gap: 15px;
+    margin: auto;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+
   }
 }
 
